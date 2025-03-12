@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Digit Recognition</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="canvas.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+
+
+    <script src="canvas.js"></script>
+  </head>
+  <body>
+    <div class="div1">
+      <h1>Handwritten digits Recognition</h1>
+      <p>Draw your digit here</p>
+      <canvas id="canvas" width="430" height="430"></canvas>
+      <img id="image">
+      <br>
+      <input class="btn btn-danger" type="button" name="clear" value="clear" id="cb">
+      <input class="btn btn-success" type="button" name="recog" value="recognize" id="rb">
+    </div>
+  </body>
+</html>
