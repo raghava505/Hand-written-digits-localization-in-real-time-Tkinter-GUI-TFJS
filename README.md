@@ -4,8 +4,8 @@
 ![Loading image ... ](sampleImg2.jpg?raw=true "Image localization deployed using TensorflowJS")
 
 
-![Loading image ... ](sampleImg3-tkinter.jpg?raw=true "Image localization deployed using Tkinter")
-![Loading image ... ](sampleImg4-tkinter.jpg?raw=true "Image localization deployed using Tkinter")
+![Loading image ... ](sampleImg3-tkinter.png?raw=true "Image localization deployed using Tkinter")
+![Loading image ... ](sampleImg4-tkinter.png?raw=true "Image localization deployed using Tkinter")
 
 1 . The file "1-HandWriiten digits localization GUI- github.ipynb" contains the code to train a CNN model using Mnist dataset.
 
